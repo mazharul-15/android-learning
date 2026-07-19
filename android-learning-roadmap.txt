@@ -1,0 +1,303 @@
+android-learning/
+│
+├── 01-Android-Basics/
+├── 02-UI-Components/
+├── 03-Layouts/
+├── 04-Activities-Intents/
+├── 05-Fragments/
+├── 06-RecyclerView/
+├── 07-Storage/
+├── 08-Networking/
+├── 09-Architecture/
+├── 10-Firebase/
+├── 11-Background-Work/
+├── 12-Permissions/
+├── 13-Multimedia/
+├── 14-Location-Maps/
+├── 15-Testing/
+├── 16-Performance-Debugging/
+├── 17-Security/
+├── 18-Publishing/
+└── README.md
+
+Android Roadmap of Folders
+
+01-Android-Basics
+Goal: Learn the Android project structure and first app.
+Topics:
+	Android Studio
+	Project Structure
+	Gradle (basic understanding)
+	AndroidManifest.xml
+	MainActivity
+	setContentView()
+	Activity lifecycle (introduction)
+	Resource folders (drawable, layout, mipmap, values)
+	R class
+	Logcat
+	Toast
+	Running app on Emulator
+	Running app on Physical Device
+
+	Mini Project
+		Hello Android
+
+	Commit examples
+		feat: create first Android project
+		feat: add Logcat example
+		feat: demonstrate Toast messages
+
+02-UI-Components
+Topics
+
+	TextView
+	EditText
+	Button
+	ImageView
+	ImageButton
+	CheckBox
+	RadioButton
+	RadioGroup
+	Switch
+	ToggleButton
+	ProgressBar
+	SeekBar
+	RatingBar
+	Spinner
+	AutoCompleteTextView
+
+	Mini Project
+		Student Registration Form
+
+03-Layouts
+Topics
+
+	LinearLayout
+	ConstraintLayout
+	FrameLayout
+	ScrollView
+	NestedScrollView
+	Guideline
+	Chain
+	Bias
+	Margin
+	Padding
+	Gravity
+	Weight
+
+	Mini Project
+		Beautiful Profile Screen
+
+04-Activities-Intents
+Topics
+
+	Activity
+	Activity Lifecycle (deep dive)
+	Explicit Intent
+	Implicit Intent
+	Passing Data
+	Receiving Data
+	Bundle
+	Parcelable
+	Serializable
+	Activity Result API
+
+	Mini Project
+		Student Information App
+
+05-Fragments
+Topics
+
+	Fragment
+	Fragment Lifecycle
+	Fragment Transactions
+	FragmentManager
+	Navigation Component
+	Safe Args
+	Bottom Navigation
+	TabLayout
+	ViewPager2
+
+	Mini Project
+		News App Navigation
+
+06-RecyclerView
+Topics
+
+	RecyclerView
+	Adapter
+	ViewHolder
+	DiffUtil
+	ListAdapter
+	GridLayoutManager
+	StaggeredGridLayoutManager
+	Item Decoration
+	Click Listener
+	Multiple View Types
+
+	Mini Project
+		Contacts App
+
+07-Storage
+Topics
+
+	SharedPreferences
+	DataStore
+	Internal Storage
+	External Storage
+	Room Database
+	SQLite (basic)
+	Content Provider (introduction)
+
+	Mini Project
+		Notes App
+
+08-Networking
+Topics
+
+	Internet Permission
+	REST API
+	JSON
+	Retrofit
+	OkHttp
+	Gson / Kotlin Serialization
+	Coroutines
+	Flow
+	Error Handling
+
+	Mini Project
+		Weather App
+
+09-Architecture
+Topics
+
+	MVVM
+	ViewModel
+	LiveData
+	StateFlow
+	SharedFlow
+	Repository Pattern
+	Dependency Injection (Hilt basics)
+	Clean Architecture (introduction)
+
+	Mini Project
+		Movie App
+
+10-Firebase
+Topics
+
+	Firebase Project Setup
+	Authentication
+	Firestore
+	Realtime Database
+	Cloud Storage
+	Crashlytics
+	Analytics
+	Push Notifications (FCM)
+
+	Mini Project
+		Chat App
+
+11-Background-Work
+Topics
+
+	Services
+	Broadcast Receiver
+	WorkManager
+	AlarmManager
+	Notifications
+
+	Mini Project
+		Reminder App
+
+
+12. Permissions
+This is an essential Android topic.
+Topics:
+
+	Runtime permissions
+	Camera permission
+	Storage permission
+	Notification permission
+	Location permission
+	Contacts permission
+
+	Mini Project:
+		Camera Permission Demo
+
+13. Multimedia
+Topics:
+
+	Camera
+	Gallery
+	Audio
+	Video
+	ExoPlayer
+	MediaRecorder
+
+	Mini Project:
+		Simple Music Player
+
+14. Location & Maps
+Topics:
+
+	Google Maps
+	GPS
+	Fused Location Provider
+	Geocoding
+	Places API
+
+	Mini Project:
+		Nearby Places App
+
+15. Testing
+Topics:
+
+	Unit Testing
+	Espresso
+	UI Testing
+	JUnit
+	Mockito (optional)
+	Instrumentation Test
+	Debugging
+	Logging
+	Profiling
+
+	Mini Project
+		Calculator Test
+
+16. Performance & Debugging
+Topics:
+
+	Logcat
+	Android Profiler
+	Memory Leak basics
+	LeakCanary (optional)
+	StrictMode
+	APK Analyzer
+
+	These are important for diagnosing and improving apps.
+
+17. Security
+Topics:
+
+	EncryptedSharedPreferences
+	Keystore
+	Secure API Keys
+	Network Security Config
+	HTTPS basics
+	ProGuard / R8 (introduction)
+
+18. Publishing
+Topics:
+
+	App Signing
+	Release Build
+	Version Code
+	Version Name
+	Generate APK
+	Generate AAB
+	Play Store requirements (overview)
+
+	Mini Project:
+		Publish your first app

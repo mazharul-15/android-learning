@@ -32,3 +32,8 @@ google-services.json
 
 # Android Profiling
 *.hprof
+
+git command.txt
+
+#ignore now 19-Projects
+19-Projects

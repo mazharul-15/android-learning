@@ -49,7 +49,9 @@ Topics:
 
 02-UI-Components
 Topics
-
+	Style
+	Shape
+	Theme
 	TextView
 	EditText
 	Button
@@ -69,7 +71,27 @@ Topics
 	Mini Project
 		Student Registration Form
 
-03-Layouts
+03-Material-Design
+Topics
+	MaterialButton
+	TextInputLayout
+	TextInputEditText
+	MaterialCardView
+	MaterialToolbar
+	FloatingActionButton
+	MaterialTextView
+	MaterialAutoCompletionTextView
+	Chip
+	ChipGroup
+	MaterialCheckBox
+	MaterialRadioButton
+	MaterialSwitch
+	Slider
+	CircularProgressIndicator
+	LinearProgressIndicator
+	
+
+04-Layouts
 Topics
 
 	LinearLayout
@@ -88,7 +110,7 @@ Topics
 	Mini Project
 		Beautiful Profile Screen
 
-04-Activities-Intents
+05-Activities-Intents
 Topics
 
 	Activity
@@ -105,7 +127,7 @@ Topics
 	Mini Project
 		Student Information App
 
-05-Fragments
+06-Fragments
 Topics
 
 	Fragment
@@ -121,7 +143,7 @@ Topics
 	Mini Project
 		News App Navigation
 
-06-RecyclerView
+07-RecyclerView
 Topics
 
 	RecyclerView
@@ -138,7 +160,7 @@ Topics
 	Mini Project
 		Contacts App
 
-07-Storage
+08-Storage
 Topics
 
 	SharedPreferences
@@ -152,7 +174,7 @@ Topics
 	Mini Project
 		Notes App
 
-08-Networking
+0-9Networking
 Topics
 
 	Internet Permission
@@ -168,7 +190,7 @@ Topics
 	Mini Project
 		Weather App
 
-09-Architecture
+10-Architecture
 Topics
 
 	MVVM
@@ -183,7 +205,7 @@ Topics
 	Mini Project
 		Movie App
 
-10-Firebase
+11-Firebase
 Topics
 
 	Firebase Project Setup
@@ -198,7 +220,7 @@ Topics
 	Mini Project
 		Chat App
 
-11-Background-Work
+12-Background-Work
 Topics
 
 	Services
@@ -211,7 +233,7 @@ Topics
 		Reminder App
 
 
-12. Permissions
+13-Permissions
 This is an essential Android topic.
 Topics:
 
@@ -225,7 +247,7 @@ Topics:
 	Mini Project:
 		Camera Permission Demo
 
-13. Multimedia
+14-Multimedia
 Topics:
 
 	Camera
@@ -238,7 +260,7 @@ Topics:
 	Mini Project:
 		Simple Music Player
 
-14. Location & Maps
+15-Location & Maps
 Topics:
 
 	Google Maps
@@ -250,7 +272,7 @@ Topics:
 	Mini Project:
 		Nearby Places App
 
-15. Testing
+16-Testing
 Topics:
 
 	Unit Testing
@@ -266,7 +288,7 @@ Topics:
 	Mini Project
 		Calculator Test
 
-16. Performance & Debugging
+17-Performance & Debugging
 Topics:
 
 	Logcat
@@ -278,7 +300,7 @@ Topics:
 
 	These are important for diagnosing and improving apps.
 
-17. Security
+18-Security
 Topics:
 
 	EncryptedSharedPreferences
@@ -288,7 +310,7 @@ Topics:
 	HTTPS basics
 	ProGuard / R8 (introduction)
 
-18. Publishing
+19-Publishing
 Topics:
 
 	App Signing
@@ -301,3 +323,5 @@ Topics:
 
 	Mini Project:
 		Publish your first app
+
+20-Projects Topic Based

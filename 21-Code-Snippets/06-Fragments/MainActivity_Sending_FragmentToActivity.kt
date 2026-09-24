@@ -1,0 +1,75 @@
+package com.example.fragmentbasic
+
+import android.os.Bundle
+import android.view.View
+import android.view.MenuItem
+import android.widget.Toast
+import androidx.fragment.app.Fragment
+import androidx.activity.enableEdgeToEdge
+import androidx.appcompat.app.AppCompatActivity
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat
+import com.example.fragmentbasic.databinding.ActivityMainBinding
+import com.google.android.material.bottomnavigation.BottomNavigationView
+
+class MainActivity : AppCompatActivity(), HomeFragment.OnNameSendListener {
+
+    private lateinit var binding: ActivityMainBinding
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        // setting home fragment
+        //loadFragment(HomeFragment())
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragmentContainer, HomeFragment())
+            .commit()
+
+        binding.bottomNavigation.setOnItemSelectedListener { item->
+            when(item.itemId) {
+                R.id.nav_home -> {
+                    val homeFragment = HomeFragment.newInstance(
+                        1302055,
+                        "Abir Rahman",
+                        23,
+                        3.31f
+                    )
+                    loadFragment(homeFragment)
+                    true
+                }
+
+                R.id.nav_news -> {
+                    loadFragment(NewsFragment())
+                    true
+                }
+
+                R.id.nav_profile -> {
+                    loadFragment(ProfileFragment())
+                    true
+                }
+
+                else -> false
+            }
+        }
+
+
+    }
+
+    private fun loadFragment(fragment: Fragment) {
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.fragmentContainer, fragment)
+            .commit()
+    }
+
+    // implement of Interface function which is defined in Home Fragment
+    override fun onNameSend(name: String) {
+        Toast.makeText(
+            this,
+            "the data from Fragment: $name",
+            Toast.LENGTH_LONG
+        ).show()
+    }
+}
